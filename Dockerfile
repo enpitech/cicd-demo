@@ -9,5 +9,3 @@ COPY . .
 RUN npm run build
 
 EXPOSE 5174
-
-ENTRYPOINT ["npm", "run", "dev"]
